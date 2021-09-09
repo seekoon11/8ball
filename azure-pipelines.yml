@@ -15,3 +15,16 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- task: FortifySCA@7
+  inputs:
+    licenseFile: 'C:\Program Files\Fortify\Fortify_SCA_and_Apps_20.2.0\fortify.license'
+    runBuildTranslate: true
+    applicationType: 'java'
+    fortifyBuildId: 'test123456'
+    runFortifyRulepackUpdate: false
+    runFortifyClean: true
+    scaVerbose: false
+    scaDebug: false
+    runFortifyScan: true
+    fortifyScanType: 'LocalScan'
