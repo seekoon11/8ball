@@ -24,13 +24,11 @@ steps:
     RunFortifyRulepackUpdate: false
 
 
-
 - task: FortifySCA@7
   inputs:
-    licenseFile: 'C:\Program Files\Fortify\Fortify_SCA_and_Apps_20.2.0\fortify.license'
     runBuildTranslate: true
     applicationType: 'java'
-    fortifyBuildId: '123132123'
+    fortifyBuildId: '123123123'
     runFortifyRulepackUpdate: false
     runFortifyClean: true
     scaVerbose: false
