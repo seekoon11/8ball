@@ -17,12 +17,12 @@ steps:
   displayName: 'Run a multi-line script'
 
 
-
 - task: FortifySCA@7
   inputs:
+    licenseFile: 'C:\Program Files\Fortify\Fortify_SCA_and_Apps_20.2.0\fortify.license'
     runBuildTranslate: true
     applicationType: 'java'
-    fortifyBuildId: '123123123'
+    fortifyBuildId: 'asdasdasd'
     runFortifyRulepackUpdate: false
     runFortifyClean: true
     scaVerbose: false
