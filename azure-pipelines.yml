@@ -27,7 +27,7 @@ steps:
 
 - task: FortifySCA@7
   inputs:
-    licenseFile: 'C:\Program Files\Fortify\Fortify_SCA_and_Apps_20.2.0\fortify.license'
+    licenseFile: 'C:\Users\Administrator\Desktop\Fortify_SecurityAssistant_Eclipse_Plugin_20.1\fortify.license'
     runBuildTranslate: true
     applicationType: 'java'
     fortifyBuildId: '123132123'
