@@ -5,7 +5,7 @@
 trigger:
 - master
 
-pool: 'Default'
+pool: 'windows'
 
 steps:
 - script: echo Hello, world!
