@@ -15,13 +15,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: InstallFortifySCA@7
-  inputs:
-    InstallerPath: 'C:\Program Files\Fortify\Fortify_SCA_and_Apps_20.2.0\'
-    VS2015: false
-    VS2019: true
-    LicenseFile: 'C:\Program Files\Fortify\Fortify_SCA_and_Apps_20.2.0\fortify.license'
-    RunFortifyRulepackUpdate: false
+
 
 
 - task: FortifySCA@7
